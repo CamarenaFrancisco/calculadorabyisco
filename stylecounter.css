@@ -1,0 +1,50 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(c.jpg);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-bottom: #255;
+}
+
+h1{
+    font-size: 8rem;
+    color: rgb(15, 12, 216);
+    margin-bottom: 1rem;
+    background: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.show{
+    font-size: 11rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.btns * {
+    background: transparent;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: rgb(25, 2, 105) solid 4px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: rgb(28, 29, 28);
+    font-size: 33px;
+    font-family: Arial black;
+}
+
+.reset{
+    margin: 0 1rem 0 1rem ;
+    background: transparent;
+}

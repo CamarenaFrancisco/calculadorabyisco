@@ -1,0 +1,45 @@
+* {
+  transition: all 0.25s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.portada {
+  text-align: left;
+  background: rgb(90, 1, 117);
+  color: white;
+  padding: 20px;
+}
+
+#encabezado-pregunta {
+  background-color: rgb(240, 124, 15);
+  width: 80vw;
+  min-height: 200px;
+  padding: 10px;
+  margin: auto;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  border: 6px solid rgb(90, 1, 117);
+}
+
+input[type="radio"]{
+     display: none;
+}
+
+input[type="radio"]:checked + label{
+     background-color: dodgerblue;
+     color: white;
+}
+
+label{
+     padding: 10px;
+     margin: 10px;
+     width: 70vw;
+     background-color: white;
+     border: 3px solid lightgray;
+}
