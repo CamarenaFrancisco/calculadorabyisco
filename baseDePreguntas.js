@@ -11,8 +11,8 @@ baseDePreguntas = [
   },
   {
     pregunta: `¿Cuánto es 5x3-4x2+3x3?`,
-    respuesta: `14`,
-    distractores: [`13`, `75`, `57`],
+    respuesta: `16`,
+    distractores: [`13`, `15`, `65`],
     //ayuda: `es lo mismo que 7*2`,
     ayudaImg: `https://i.ibb.co/k1WgGW2/descarga.jpg`,
   },
